@@ -1,6 +1,4 @@
 
-
-
 public class Lenovo implements Laptop {
     private int volume;
     boolean is_power_on;
@@ -34,9 +32,8 @@ public class Lenovo implements Laptop {
                 this.volume += 10;
                 System.out.println("Volume is :" + this.getVolume());
             }
-        }else{
-            System.out.println("Laptop mati");
         }
+        
     }
     
     @Override
@@ -49,8 +46,6 @@ public class Lenovo implements Laptop {
                 this.volume -= 10;
                 System.out.println("Volume is :" + this.getVolume());
             }
-        }else{
-            System.out.println("Laptop mati");
         }
     }
     
